@@ -74,10 +74,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vibecodetool.online — Smart AI Tool Decisions" },
+      { title: "Vibecodetool — Smart AI Tool Decisions" },
       { name: "description", content: "Compare the best AI tools — Antigravity, Claude, ChatGPT, and Lovable — and pick the one that fits your workflow." },
-      { name: "author", content: "Vibecodetool.online" },
-      { property: "og:title", content: "Vibecodetool.online — Smart AI Tool Decisions" },
+      { name: "author", content: "Vibecodetool" },
+      { property: "og:title", content: "Vibecodetool — Smart AI Tool Decisions" },
       { property: "og:description", content: "Compare AI tools and ship faster." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

@@ -5,7 +5,7 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vibecodetool.online — Smart AI Tool Decisions" },
+      { title: "Vibecodetool — Smart AI Tool Decisions" },
       { name: "description", content: "Compare Antigravity, Claude, ChatGPT, and Lovable. Ship faster with the right AI stack." },
     ],
   }),

@@ -4,8 +4,8 @@ import { Shield } from "lucide-react";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — Vibecodetool.online" },
-      { name: "description", content: "How Vibecodetool.online collects, uses, and protects your data." },
+      { title: "Privacy Policy — Vibecodetool" },
+      { name: "description", content: "How Vibecodetool collects, uses, and protects your data." },
     ],
   }),
   component: Privacy,
@@ -43,7 +43,7 @@ function Privacy() {
         </section>
         <section>
           <h2 className="text-foreground font-display text-2xl font-bold mb-3">5. Your rights</h2>
-          <p>You can request deletion of your data at any time by emailing <a href="mailto:hello@Vibecodetool.online.app" className="text-primary hover:underline">hello@Vibecodetool.online.app</a>. We will action requests within 30 days.</p>
+          <p>You can request deletion of your data at any time by emailing <a href="mailto:hello@Vibecodetool.app" className="text-primary hover:underline">hello@Vibecodetool</a>. We will action requests within 30 days.</p>
         </section>
         <section>
           <h2 className="text-foreground font-display text-2xl font-bold mb-3">6. Changes</h2>

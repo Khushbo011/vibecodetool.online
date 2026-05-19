@@ -5,8 +5,8 @@ import { useState } from "react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Vibecodetool.online" },
-      { name: "description", content: "Reach the Vibecodetool.online team." },
+      { title: "Contact — Vibecodetool" },
+      { name: "description", content: "Reach the Vibecodetool team." },
     ],
   }),
   component: Contact,
@@ -44,7 +44,7 @@ function Contact() {
               For general enquiries and collaborations.
             </p>
             <p className="text-sm mt-2 text-primary">
-              hello@Vibecodetool.online.app
+              hello@Vibecodetool
             </p>
           </div>
 
@@ -58,7 +58,7 @@ function Contact() {
               Need help with tools or tutorials?
             </p>
             <p className="text-sm mt-2 text-primary">
-              support@Vibecodetool.online.app
+              support@Vibecodetool.app
             </p>
           </div>
 

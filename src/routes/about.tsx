@@ -4,8 +4,8 @@ import { Sparkles, Target, Heart, Zap, ArrowRight, Quote } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Vibecodetool.online" },
-      { name: "description", content: "Why Vibecodetool.online exists and who it's for." },
+      { title: "About — Vibecodetool" },
+      { name: "description", content: "Why Vibecodetool exists and who it's for." },
     ],
   }),
   component: About,
@@ -21,7 +21,7 @@ const timeline = [
   { year: "2023", title: "Started as a hosting blog", text: "A small site comparing where to deploy your side project." },
   { year: "2024", title: "Pivoted to AI tools", text: "Spent a year stress-testing every model, IDE, and builder we could find." },
   { year: "2025", title: "12k+ readers", text: "Indie devs, founders, and creators using us to pick their stack." },
-  { year: "2026", title: "Vibecodetool.online today", text: "The honest, no-fluff guide to building with AI in 2026." },
+  { year: "2026", title: "Vibecodetool today", text: "The honest, no-fluff guide to building with AI in 2026." },
 ];
 
 function About() {
@@ -32,7 +32,7 @@ function About() {
         <div className="mx-auto max-w-7xl px-6 pt-20 pb-24 grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 space-y-7">
             <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-1.5 text-xs">
-              <Sparkles className="h-3 w-3 text-primary" /> About Vibecodetool.online
+              <Sparkles className="h-3 w-3 text-primary" /> About Vibecodetool
             </div>
             <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02]">
               Built for the <br />
@@ -141,7 +141,7 @@ function About() {
         <div className="glass rounded-3xl p-10 md:p-14 relative">
           <Quote className="absolute top-6 left-6 h-10 w-10 text-primary/30" />
           <p className="font-display text-2xl md:text-3xl leading-snug">
-            "Vibecodetool.online is the first review site that actually feels like it's written by people who ship.
+            "Vibecodetool is the first review site that actually feels like it's written by people who ship.
             They saved us weeks of trial and error."
           </p>
           <div className="mt-6 flex items-center gap-3">

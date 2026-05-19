@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export const Route = createFileRoute("/tutorials")({
   head: () => ({
     meta: [
-      { title: "Tutorials — Vibecodetool.online" },
+      { title: "Tutorials — Vibecodetool" },
       { name: "description", content: "Step-by-step videos for AI-first builders." },
     ],
   }),

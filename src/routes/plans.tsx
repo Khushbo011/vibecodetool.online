@@ -4,7 +4,7 @@ import { Check, Sparkles, ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/plans")({
   head: () => ({
     meta: [
-      { title: "Plans — Vibecodetool.online" },
+      { title: "Plans — Vibecodetool" },
       { name: "description", content: "Compare Antigravity, Claude, ChatGPT, and Lovable side by side." },
     ],
   }),

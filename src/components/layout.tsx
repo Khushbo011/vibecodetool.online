@@ -24,7 +24,7 @@ export function Header() {
             style={{ background: "var(--gradient-hero)" }}>
             <Sparkles className="h-5 w-5 text-background" />
           </span>
-          <span className="text-gradient">Vibecodetool.online</span>
+          <span className="text-gradient">Vibecodetool</span>
         </Link>
 
         {/* Desktop Links */}
@@ -140,7 +140,7 @@ export function Footer() {
                   style={{ background: "var(--gradient-hero)" }}>
                   <Sparkles className="h-5 w-5 text-background" />
                 </span>
-                <span className="text-gradient">Vibecodetool.online</span>
+                <span className="text-gradient">Vibecodetool</span>
               </Link>
 
               <p className="mt-4 text-sm text-muted-foreground">
@@ -198,7 +198,7 @@ export function Footer() {
 
           {/* Bottom */}
           <div className="pt-8 border-t border-border text-xs text-muted-foreground flex justify-between">
-            <p>© {new Date().getFullYear()} Vibecodetool.online</p>
+            <p>© {new Date().getFullYear()} Vibecodetool</p>
             <p>All systems operational</p>
           </div>
 
