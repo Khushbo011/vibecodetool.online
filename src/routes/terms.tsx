@@ -47,7 +47,7 @@ function Terms() {
         </section>
         <section>
           <h2 className="text-foreground font-display text-2xl font-bold mb-3">6. Contact</h2>
-          <p>Questions? Email <a href="mailto:hello@Vibecodetool.app" className="text-primary hover:underline">hello@Vibecodetool.app</a>.</p>
+          <p>Questions? Email <a href="mailto:hello@Vibecodetool.app" className="text-primary hover:underline">hello@Vibecodetool</a>.</p>
         </section>
       </div>
     </div>
