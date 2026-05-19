@@ -58,7 +58,7 @@ function Contact() {
               Need help with tools or tutorials?
             </p>
             <p className="text-sm mt-2 text-primary">
-              support@Vibecodetool.app
+              support@Vibecodetool
             </p>
           </div>
 
